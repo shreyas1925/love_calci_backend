@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Langar", cursive;
+}
+.container-fluid {
+  background-image: url("./love.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.card {
+  background: rgba(255, 255, 255, 0.2);
+}
+.first_div {
+  color: red;
+}
+.card-header {
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 28px;
+  font-weight: 300;
+}
+.card-body {
+  height: 500px;
+  width: 550px;
+
+  background: rgba(255, 255, 255, 0.2);
+}
+.new {
+  display: grid;
+  place-items: center;
+}
+
+#res input {
+  background: rgba(255, 255, 255, 0.2);
+}
+.heading {
+  font-size: 37px;
+}
+.card-footer {
+  font-size: 24px;
+}
+#lname {
+  margin-top: 2px;
+  margin-left: 7px;
+}
+@media (max-width: 575px) {
+  #heart {
+    margin-left: 100px;
+  }
+  #lname {
+    margin-left: 0px;
+  }
+}
